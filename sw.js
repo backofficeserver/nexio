@@ -1,12 +1,12 @@
 const CACHE_NAME = 'nexio-v2';
-const OFFLINE_URL = '/offline.html';
+const OFFLINE_URL = '/nexio/offline.html';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles/main.css',
-  '/scripts/app.js',
-  '/icons/icon-72x72.png',
-  '/icons/icon-512x512.svg',
+  '/nexio/',
+  '/nexio/index.html',
+  '/nexio/styles/main.css',
+  '/nexio/scripts/app.js',
+  '/nexio/icons/icon-72x72.png',
+  '/nexio/icons/icon-512x512.svg',
   OFFLINE_URL
 ];
 
