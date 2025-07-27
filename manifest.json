@@ -6,7 +6,7 @@
   "short_name": "nexio",
   "scope": "/nexio/",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "/nexio/",
   "background_color": "#ffffff",
   "theme_color": "#182538",
   "description": "Next-Gen Electronics - Today, discover top-rated Electronics near you. Order from local area!",
