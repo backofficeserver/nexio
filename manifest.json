@@ -4,7 +4,7 @@
   "id": "nexio",
   "name": "Nexio App",
   "short_name": "nexio",
-  "version": "1.0.0.1",
+  "version": "1.0.0.2",
   "scope": "/nexio/",
   "display": "standalone",
   "start_url": "/nexio/",

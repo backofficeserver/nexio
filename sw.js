@@ -5,7 +5,8 @@ const urlsToCache = [
   '/nexio/index.html',
   '/nexio/styles/main.css',
   '/nexio/scripts/app.js',
-  '/nexio/icons/icon-72x72.png',
+  '/nexio/icons/icon-32x32.svg',
+  '/nexio/icons/icon-32x32.png',
   '/nexio/icons/icon-512x512.svg',
   OFFLINE_URL
 ];
