@@ -32,10 +32,15 @@
   ],
   "screenshots": [
     {
-      "src": "/nexio/screenshots/screenshot.png",
+      "src": "/nexio/screenshots/home.wepb",
       "sizes": "1386x844",
-      "type": "image/png",
+      "type": "image/wepb",
       "description": "Home screen of the app"
+    },{
+      "src": "/nexio/screenshots/login.wepb",
+      "sizes": "1386x844",
+      "type": "image/wepb",
+      "description": "Login screen of the app"
     }
   ],
   "features": [
