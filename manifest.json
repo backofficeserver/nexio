@@ -2,15 +2,15 @@
   "dir": "ltr",
   "lang": "en",
   "id": "nexio",
-  "name": "Nexio App",
-  "short_name": "nexio",
-  "version": "1.0.0.3",
+  "name": "Nexio Food App",
+  "short_name": "Nexio Food",
+  "version": "1.0.0.4",
   "scope": "/nexio/",
   "display": "standalone",
   "start_url": "/nexio/",
   "background_color": "#ffffff",
   "theme_color": "#182538",
-  "description": "Next-Gen Electronics - Today, discover top-rated Electronics near you. Order from local area!",
+  "description": "Next-Gen Electronics - Today, discover electronics near you. Order from locally deliver fast!",
   "orientation": "portrait-primary",
   "iarc_rating_id": "nex",
   "icons": [
@@ -18,14 +18,24 @@
       "src": "/nexio/icons/icon-512x512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml"
-    },{
+    },
+    {
       "src": "/nexio/icons/icon-32x32.svg",
       "sizes": "32x32",
       "type": "image/svg+xml"
-    },{
+    },
+    {
       "src": "/nexio/icons/icon-32x32.png",
       "sizes": "32x32",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/nexio/screenshots/screenshot.png",
+      "sizes": "1386x844",
+      "type": "image/png",
+      "description": "Home screen of the app"
     }
   ],
   "features": [
@@ -35,7 +45,7 @@
   ],
   "categories": [
     "Electronics",
-    "Fitness",
+    "Lifestyle",
     "E-Commerce"
   ],
   "launch_handler": {
