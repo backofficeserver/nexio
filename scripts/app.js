@@ -22,7 +22,6 @@ function updateIframe() {
     path = url.split("nexio/")[1].split("?").join("&");
   }
   iframe.src = `https://script.google.com/macros/s/AKfycbxzTgJEEuZ0TPV-V7wYPbDKYMuKufa_le-DgMboGWKluB-iW1hIS5a4X89Rdl2tMwQA/exec?p=${path}`;
-  console.log(path);
   iframe.addEventListener("load", function () {
     document.querySelector("#load").style.display = "none";
     iframe.style.display = "block";
