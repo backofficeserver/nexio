@@ -37,12 +37,3 @@ document.addEventListener("DOMContentLoaded", function () {
   updateIframe();
   window.addEventListener("popstate", updateIframe);
 });
-
- window.addEventListener('message', (event) => {
-      if (event.origin.startsWith("https://script.google.com")) {
-        if (event.data.type === 'updateUrl') {
-          history.pushState({}, '', event.data.url);
-          console.log('URL updated to:', event.data.url);
-        }
-      }
-    });
